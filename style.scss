@@ -1,0 +1,195 @@
+/* POLICE */
+@font-face {
+    font-family: 'trueno';
+    src: url('./font/trueno.otf') format('truetype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'truenolight';
+    src: url('./font/truenolt.otf') format('truetype');
+    font-weight:normal;
+}
+
+/* COLOR */
+$text-color:#F1C849;
+$font-color:#549B85;
+
+/* Setting général */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+
+    div {
+        background-color: $font-color;
+        margin: 0;
+        padding: 0;
+
+        h1 {
+            font-family: 'trueno';
+            color: $text-color;
+            font-size: 45px;
+            margin: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+    }
+}
+
+/* Section centrale */
+
+.choix-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 0;
+
+        > div {
+            box-shadow: 0px 0px 5px 2px #ededed;
+            margin: 40px 0 20px 0;
+            padding:0;
+            width: 36%;
+        }
+
+        h3 {
+            font-size: 40px;
+            margin-top: 0;
+        }
+
+        p{
+            margin-bottom: 10px;
+        }
+
+    .menu-note-enchantee {
+        background-color: #fcdfdb;
+        color: #3c1218;
+        text-align: center;
+        padding: 200px 0 200px 0;
+        margin-right: 20px;
+        font-family: 'Devonshire', cursive;
+
+        h3 {
+            font-family: 'Kalam', cursive;
+        }
+        
+        i {
+            font-size: 35px;
+            background: linear-gradient(to right,#F0505F,#F78F6A); 
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        p {
+            margin-top: 2px;
+        }
+        
+    }
+
+    .menu-chic-francaise {
+        background-color: #fef5ff;
+        text-align: center;
+        padding: 200px 0 200px 0;
+        margin-left: 20px;
+        font-family: 'Croissant One', cursive;
+        
+        p {
+        background: linear-gradient(to right, #c77412, #925dfc);
+        -webkit-background-clip: text;
+        color: transparent;
+        }
+
+        h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+            color: #c77412;
+        }
+    }
+
+    .menu-delice-papilles {
+        background-color: #F9F9F9;
+        text-align: center;
+        padding: 200px 0 200px 0;
+        margin-right: 20px;
+        font-family: 'Dancing Script', cursive;
+
+        p{
+            background: linear-gradient(to right, #2055e6, #5aaffa);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        h3 {
+            font-family: 'Kalam', cursive;
+            color: #1b88fb;
+        }
+        
+    }
+
+    .menu-palette-goût {
+        background-color: #FDFFFD;
+        text-align: center;
+        padding: 200px 0 200px 0;
+        margin-left: 20px;
+        font-family: 'Kaushan Script', cursive;
+
+        p{
+            background: linear-gradient(to right, #42973c, #c6ff8d);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        h3 {
+            font-family: 'Kalam', cursive;
+            color: #72bf56;
+        }
+    }
+
+}
+
+.bouton-prochainement {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 7%;
+    background-color: $font-color;
+    color: $text-color;
+    font-family: 'truenolight';
+    font-size: 20px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background-color: $font-color;
+    color: $text-color;
+    font-family: 'truenolight';
+        
+        .mentions-légales {
+            margin: 0 0 0 20px;
+            
+        }
+
+        .contactez-nous {
+            margin: 0 20px 0 0;
+            
+        }
+}
+
