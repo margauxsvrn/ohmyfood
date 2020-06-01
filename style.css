@@ -12,9 +12,10 @@
 }
 /* COLOR */
 /* Setting général */
-body {
+html, body {
   margin: 0;
   padding: 0;
+  font-size: 20px;
 }
 
 /* Header */
@@ -29,10 +30,10 @@ header div {
 header div h1 {
   font-family: "trueno";
   color: #F1C849;
-  font-size: 45px;
+  font-size: 2.8rem;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -41,7 +42,7 @@ header div h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 25px;
+  font-size: 1.3rem;
   width: 100%;
   margin: 0 0 30px 0;
   padding: 0;
@@ -53,7 +54,7 @@ header div h1 {
   width: 36%;
 }
 .choix-menu h3 {
-  font-size: 40px;
+  font-size: 2rem;
   margin-top: 0;
 }
 .choix-menu p {
@@ -71,7 +72,7 @@ header div h1 {
   font-family: "Kalam", cursive;
 }
 .choix-menu .menu-note-enchantee i {
-  font-size: 35px;
+  font-size: 2rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
   color: transparent;
@@ -131,15 +132,17 @@ header div h1 {
 
 .bouton-prochainement {
   display: block;
+  overflow-wrap: break-word;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 7%;
+  margin-bottom: 35px;
+  padding: 12px 8px 12px 8px;
+  width: 20%;
+  border-radius: 10px;
+  text-align: center;
   background-color: #549B85;
   color: #F1C849;
   font-family: "truenolight";
-  font-size: 20px;
-  padding: 8px 30px 8px 30px;
-  border-radius: 10px;
 }
 
 /* Footer */
@@ -155,11 +158,44 @@ footer {
   color: #F1C849;
   font-family: "truenolight";
 }
+footer a {
+  color: #F1C849;
+  text-decoration: none;
+}
 footer .mentions-légales {
   margin: 0 0 0 20px;
 }
+footer .mentions-légales:hover {
+  animation: wiggle 0.82s;
+  transform: translate(0, 0);
+}
+@keyframes wiggle {
+  10%, 90% {
+    transform: translate(-1px, 0);
+  }
+  20%, 80% {
+    transform: translate(2px, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate(-4px, 0);
+  }
+  40%, 60% {
+    transform: translate(4px, 0);
+  }
+}
 footer .contactez-nous {
   margin: 0 20px 0 0;
+}
+footer .contactez-nous:hover {
+  animation: wiggle 0.82s;
+  transform: translate(0, 0);
+}
+
+/* PAGE MENTION LEGALE */
+.mentions {
+  text-align: center;
+  font-family: "trueno";
+  color: #549B85;
 }
 
 /*# sourceMappingURL=style.css.map */

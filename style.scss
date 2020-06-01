@@ -11,13 +11,14 @@
 }
 
 /* COLOR */
-$text-color:#F1C849;
-$font-color:#549B85;
+$couleur_texte:#F1C849;
+$couleur_fond:#549B85;
 
 /* Setting général */
-body {
+html,body {
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 
 /* Header */
@@ -26,17 +27,17 @@ header {
     width: 100%;
 
     div {
-        background-color: $font-color;
+        background-color: $couleur_fond;
         margin: 0;
         padding: 0;
 
         h1 {
             font-family: 'trueno';
-            color: $text-color;
-            font-size: 45px;
+            color: $couleur_texte;
+            font-size: 2.8rem;
             margin: 0;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
             text-align: center;
         }
     }
@@ -48,7 +49,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 25px;
+    font-size: 1.3rem;
     width: 100%;
     margin: 0 0 30px 0;
     padding: 0;
@@ -61,7 +62,7 @@ header {
         }
 
         h3 {
-            font-size: 40px;
+            font-size: 2rem;
             margin-top: 0;
         }
 
@@ -82,7 +83,7 @@ header {
         }
         
         i {
-            font-size: 35px;
+            font-size: 2rem;
             background: linear-gradient(to right,#F0505F,#F78F6A); 
             -webkit-background-clip: text;
             color: transparent;
@@ -157,15 +158,18 @@ header {
 
 .bouton-prochainement {
     display: block;
+    overflow-wrap: break-word;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 7%;
-    background-color: $font-color;
-    color: $text-color;
-    font-family: 'truenolight';
-    font-size: 20px;
-    padding: 8px 30px 8px 30px;
+    margin-bottom: 35px;
+    padding: 12px 8px 12px 8px;
+    width: 20%;
     border-radius: 10px;
+    text-align: center;
+    background-color: $couleur_fond;
+    color: $couleur_texte;
+    font-family: 'truenolight';
+
 }
 
 /* Footer */
@@ -178,18 +182,56 @@ footer {
     width: 100%;
     margin: 0;
     padding: 20px 0 20px 0;
-    background-color: $font-color;
-    color: $text-color;
-    font-family: 'truenolight';
-        
+    background-color: $couleur_fond;
+    color: $couleur_texte;
+    font-family: 'truenolight'; 
+
+        a {
+            color: $couleur_texte;
+            text-decoration: none;
+        }
+
         .mentions-légales {
             margin: 0 0 0 20px;
             
+            &:hover {
+                animation: wiggle 0.82s; 
+                transform: translate(0, 0); 
+            }
+        }
+
+        @keyframes wiggle { 
+            10%, 90% { 
+            transform: translate(-1px, 0); 
+            } 
+        
+            20%, 80% { 
+            transform: translate(2px, 0); 
+            } 
+        
+            30%, 50%, 70% { 
+            transform: translate(-4px, 0); 
+            } 
+        
+            40%, 60% { 
+            transform: translate(4px, 0); 
+            } 
         }
 
         .contactez-nous {
             margin: 0 20px 0 0;
-            
+
+            &:hover {
+                animation: wiggle 0.82s; 
+                transform: translate(0, 0);
+            }
         }
+}
+
+/* PAGE MENTION LEGALE */
+.mentions {
+    text-align: center;
+    font-family: 'trueno';
+    color: $couleur_fond;
 }
 
