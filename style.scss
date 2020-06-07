@@ -23,7 +23,7 @@ html,body {
 
 /* Header */
 
-header {
+.bandeau_page_principale{
     width: 100%;
 
     div {
@@ -45,7 +45,8 @@ header {
 
 /* Section centrale */
 
-.choix-menu {
+    /* PARAMETRE MENU */
+.bloc_central {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -70,9 +71,9 @@ header {
             margin-bottom: 10px;
         }
 
+    /* MENU NOTE ENCHANTEE */
     .menu-note-enchantee {
         background-color: #fcdfdb;
-        color: #3c1218;
         text-align: center;
         padding: 200px 0 200px 0;
         margin-right: 20px;
@@ -92,6 +93,11 @@ header {
         p {
             margin-top: 2px;
         }
+
+        a {
+            text-decoration: none;
+            color: #3c1218;
+        }
         
     }
 
@@ -106,6 +112,7 @@ header {
         }
     }
 
+    /* MENU CHIC FRANCAISE */
     .menu-chic-francaise {
         background-color: #fef5ff;
         text-align: center;
@@ -125,7 +132,7 @@ header {
             color: #c77412;
         }
     }
-
+    /* MENU DELICE PAPILLES */
     .menu-delice-papilles {
         background-color: #F9F9F9;
         text-align: center;
@@ -145,7 +152,7 @@ header {
         }
         
     }
-
+    /* MENU PALETTE GOUT */
     .menu-palette-goût {
         background-color: #FDFFFD;
         text-align: center;
@@ -167,7 +174,7 @@ header {
 
 }
 
-
+    /* BOUTON PROCHAINEMENT */
 .bouton-prochainement {
     display: block;
     overflow-wrap: break-word;
@@ -181,11 +188,55 @@ header {
     background-color: $couleur_fond;
     color: $couleur_texte;
     font-family: 'truenolight';
-    
+ 
+    .point_1{
+        display: inline-block;
+        animation: point_1 1s ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+    .point_2{
+        display: inline-block;
+        animation: point_2 0.9s ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+    .point_3{
+        display: inline-block;
+        animation: point_3 0.8s ease-in-out;
+        animation-iteration-count: infinite;
+    }
 }
 
+@keyframes point_1 {
+    0%{
+        transform: translateY(-4px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
 
+@keyframes point_2 {
+    0%{
+        transform: translateY(-6px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
 
+@keyframes point_3 {
+    0%{
+        transform: translateY(-8px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
 
 /* Footer */
 
@@ -210,8 +261,7 @@ footer {
             margin: 0 0 0 20px;
             
             &:hover {
-                animation: wiggle 1s; 
-                transform: translateX(0); 
+                animation: wiggle 1s;  
             }
         }
 
@@ -243,10 +293,11 @@ footer {
         }
 }
 
-/* PAGE MENTION LEGALE */
+/* PAGE: MENTION LEGALE */
 .mentions {
     text-align: center;
     font-family: 'trueno';
     color: $couleur_fond;
 }
 
+/* PAGE: MENU - LA NOTE ENCHANTÉE */
