@@ -267,7 +267,6 @@ footer .contactez-nous:hover {
   padding: 70px 80px 70px 80px;
   width: 65%;
   font-family: "Kalam", cursive;
-  font-style: normal;
 }
 .conteneur__note-enchantée header {
   font-family: "Devonshire", cursive;
@@ -296,17 +295,26 @@ footer .contactez-nous:hover {
 .conteneur__note-enchantée .menu_description {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 40px;
-}
-.conteneur__note-enchantée .menu_description p {
-  width: 100%;
-  margin: 0 50px 10px 0;
+  margin-bottom: 90px;
 }
 .conteneur__note-enchantée .menu_description div {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-.conteneur__note-enchantée .menu_description div span {
-  margin-left: 50px;
+.conteneur__note-enchantée .menu_description p {
+  margin-bottom: 1px;
+}
+.conteneur__note-enchantée .titre_footer {
+  text-align: center;
+  font-family: "Devonshire", cursive;
+  font-size: 1.5rem;
+}
+.conteneur__note-enchantée .titre_footer i {
+  font-size: 1.8rem;
+  background: linear-gradient(to right, #F0505F, #F78F6A);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

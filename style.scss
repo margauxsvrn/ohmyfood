@@ -313,7 +313,6 @@ footer {
     padding: 70px 80px 70px 80px;
     width: 65%;
     font-family: 'Kalam', cursive;
-    font-style: normal;
 
     header {
         font-family: 'Devonshire', cursive;
@@ -349,28 +348,37 @@ footer {
     .menu_description {
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 40px;
-
-        p {
-            width: 100%;
-            margin: 0 50px 10px 0;
-        }
+        margin-bottom: 90px;
 
         div {
             display: flex;
-
-            span {
-                margin-left: 50px;
-                
-            }
-
+            width: 100%;
+            justify-content: space-between;
+            
         }
-        
-
-        
+        p {
+            margin-bottom: 1px;
+            
+        } 
     }
 
-    
+    .titre_footer {
+        text-align: center;
+        font-family: 'Devonshire', cursive;
+        font-size: 1.5rem;
+
+        i{
+            font-size: 1.8rem;
+            background: linear-gradient(to right,#F0505F,#F78F6A); 
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+    }
+
+
 }
+
+
 
 
