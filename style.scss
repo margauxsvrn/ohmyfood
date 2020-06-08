@@ -244,6 +244,7 @@ footer {
     display: flex;
     justify-content: space-between;
     position: sticky;
+    position: -webkit-sticky; /* Safari */
     bottom: 0;
     width: 100%;
     margin: 0;
