@@ -296,8 +296,80 @@ footer {
 /* PAGE: MENTION LEGALE */
 .mentions {
     text-align: center;
-    font-family: 'trueno';
+    font-family: 'trueno';  
     color: $couleur_fond;
 }
 
 /* PAGE: MENU - LA NOTE ENCHANTÉE */
+
+.conteneur__note-enchantée {
+    border: 1px solid #fcdfdb;
+    background-color: #fcdfdb;
+    color: #3c1218;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    padding: 70px 80px 70px 80px;
+    width: 65%;
+    font-family: 'Kalam', cursive;
+    font-style: normal;
+
+    header {
+        font-family: 'Devonshire', cursive;
+        text-align: center;
+
+        h1 {
+            margin-top: 1px;
+        }
+
+        i {
+            font-size: 3rem;
+            background: linear-gradient(to right,#F0505F,#F78F6A); 
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
+
+    .titre_menu__note-enchantée {
+
+        text-align: center;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+        
+    }
+
+    .menu_description {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+
+        p {
+            width: 100%;
+            margin: 0 50px 10px 0;
+        }
+
+        div {
+            display: flex;
+
+            span {
+                margin-left: 50px;
+                
+            }
+
+        }
+        
+
+        
+    }
+
+    
+}
+
+
