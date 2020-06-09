@@ -40,6 +40,10 @@ html,body {
             padding-bottom: 25px;
             text-align: center;
         }
+        a {
+            text-decoration: none;
+            color: $couleur_texte;
+        }
     }
 }
 
@@ -130,6 +134,10 @@ html,body {
             font-family: 'Times New Roman', Times, serif;
             font-weight: normal;
             color: #c77412;
+        }
+
+        a {
+            text-decoration: none;
         }
     }
     /* MENU DELICE PAPILLES */
@@ -309,12 +317,13 @@ footer {
     color: #3c1218;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 40px;
-    padding: 70px 80px 70px 80px;
+    margin-top: 2rem;
+    padding: 3.5rem 4rem 1rem 4rem;
     width: 65%;
     font-family: 'Kalam', cursive;
+    font-weight: lighter;
 
-    header {
+    .titre_conteneur {
         font-family: 'Devonshire', cursive;
         text-align: center;
 
@@ -342,7 +351,7 @@ footer {
             margin: 0;
             padding: 0;
         }
-        
+
     }
 
     .menu_description {
@@ -358,8 +367,11 @@ footer {
         }
         p {
             margin-bottom: 1px;
-            
-        } 
+
+        }
+        .prix {
+            font-weight: bold;
+        }
     }
 
     .titre_footer {
@@ -373,10 +385,84 @@ footer {
             -webkit-background-clip: text;
             color: transparent;
         }
+    }
+}
 
+/* PAGE: MENU - LE CHIC A LA FRANCAISE */
+
+.conteneur__chic-francaise {
+    border: 1px solid #fcdfdb;
+    background-color: #fcdfdb;
+    color: #3c1218;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    padding: 3.5rem 4rem 1rem 4rem;
+    width: 65%;
+    font-family: 'Kalam', cursive;
+    font-weight: lighter;
+
+    .titre_conteneur {
+        font-family: 'Devonshire', cursive;
+        text-align: center;
+
+        h1 {
+            margin-top: 1px;
+        }
+
+        i {
+            font-size: 3rem;
+            background: linear-gradient(to right,#F0505F,#F78F6A); 
+            -webkit-background-clip: text;
+            color: transparent;
+        }
     }
 
+    .titre_menu__chic-francaise {
 
+        text-align: center;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .menu_description {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 90px;
+
+        div {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;  
+        }
+        p {
+            margin-bottom: 1px;
+            
+        } 
+        .prix {
+            font-weight: bold;
+        }
+    }
+
+    .titre_footer {
+        text-align: center;
+        font-family: 'Devonshire', cursive;
+        font-size: 1.5rem;
+
+        i{
+            font-size: 1.8rem;
+            background: linear-gradient(to right,#F0505F,#F78F6A); 
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
 }
 
 

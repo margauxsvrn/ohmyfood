@@ -36,6 +36,10 @@ html, body {
   padding-bottom: 25px;
   text-align: center;
 }
+.bandeau_page_principale div a {
+  text-decoration: none;
+  color: #F1C849;
+}
 
 /* Section centrale */
 /* PARAMETRE MENU */
@@ -113,6 +117,9 @@ html, body {
   font-family: "Times New Roman", Times, serif;
   font-weight: normal;
   color: #c77412;
+}
+.bloc_central .menu-chic-francaise a {
+  text-decoration: none;
 }
 .bloc_central .menu-delice-papilles {
   background-color: #F9F9F9;
@@ -263,19 +270,20 @@ footer .contactez-nous:hover {
   color: #3c1218;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 40px;
-  padding: 70px 80px 70px 80px;
+  margin-top: 2rem;
+  padding: 3.5rem 4rem 1rem 4rem;
   width: 65%;
   font-family: "Kalam", cursive;
+  font-weight: lighter;
 }
-.conteneur__note-enchantée header {
+.conteneur__note-enchantée .titre_conteneur {
   font-family: "Devonshire", cursive;
   text-align: center;
 }
-.conteneur__note-enchantée header h1 {
+.conteneur__note-enchantée .titre_conteneur h1 {
   margin-top: 1px;
 }
-.conteneur__note-enchantée header i {
+.conteneur__note-enchantée .titre_conteneur i {
   font-size: 3rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
@@ -305,12 +313,80 @@ footer .contactez-nous:hover {
 .conteneur__note-enchantée .menu_description p {
   margin-bottom: 1px;
 }
+.conteneur__note-enchantée .menu_description .prix {
+  font-weight: bold;
+}
 .conteneur__note-enchantée .titre_footer {
   text-align: center;
   font-family: "Devonshire", cursive;
   font-size: 1.5rem;
 }
 .conteneur__note-enchantée .titre_footer i {
+  font-size: 1.8rem;
+  background: linear-gradient(to right, #F0505F, #F78F6A);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* PAGE: MENU - LE CHIC A LA FRANCAISE */
+.conteneur__chic-francaise {
+  border: 1px solid #fcdfdb;
+  background-color: #fcdfdb;
+  color: #3c1218;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  padding: 3.5rem 4rem 1rem 4rem;
+  width: 65%;
+  font-family: "Kalam", cursive;
+  font-weight: lighter;
+}
+.conteneur__chic-francaise .titre_conteneur {
+  font-family: "Devonshire", cursive;
+  text-align: center;
+}
+.conteneur__chic-francaise .titre_conteneur h1 {
+  margin-top: 1px;
+}
+.conteneur__chic-francaise .titre_conteneur i {
+  font-size: 3rem;
+  background: linear-gradient(to right, #F0505F, #F78F6A);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.conteneur__chic-francaise .titre_menu__chic-francaise {
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.conteneur__chic-francaise .titre_menu__chic-francaise h3 {
+  margin: 0;
+  padding: 0;
+}
+.conteneur__chic-francaise .menu_description {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+.conteneur__chic-francaise .menu_description div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.conteneur__chic-francaise .menu_description p {
+  margin-bottom: 1px;
+}
+.conteneur__chic-francaise .menu_description .prix {
+  font-weight: bold;
+}
+.conteneur__chic-francaise .titre_footer {
+  text-align: center;
+  font-family: "Devonshire", cursive;
+  font-size: 1.5rem;
+}
+.conteneur__chic-francaise .titre_footer i {
   font-size: 1.8rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
