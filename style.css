@@ -171,23 +171,29 @@ html, body {
 }
 .bouton-prochainement .point_1 {
   display: inline-block;
-  animation: point_1 1s ease-in-out;
+  animation: point_1 550ms ease-in-out;
+  animation-delay: 100ms;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 .bouton-prochainement .point_2 {
   display: inline-block;
-  animation: point_2 0.9s ease-in-out;
+  animation: point_2 550ms ease-in-out;
+  animation-delay: 200ms;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 .bouton-prochainement .point_3 {
   display: inline-block;
-  animation: point_3 0.8s ease-in-out;
+  animation: point_3 550ms ease-in-out;
+  animation-delay: 400ms;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes point_1 {
   0% {
-    transform: translateY(-4px);
+    transform: translateY(-3px);
   }
   100% {
     transform: translateY(0px);
@@ -195,7 +201,7 @@ html, body {
 }
 @keyframes point_2 {
   0% {
-    transform: translateY(-6px);
+    transform: translateY(-3px);
   }
   100% {
     transform: translateY(0px);
@@ -203,7 +209,7 @@ html, body {
 }
 @keyframes point_3 {
   0% {
-    transform: translateY(-8px);
+    transform: translateY(-3px);
   }
   100% {
     transform: translateY(0px);
@@ -264,6 +270,7 @@ footer .contactez-nous:hover {
 }
 
 /* PAGE: MENU - LA NOTE ENCHANTÉE */
+/* Bloc principal */
 .conteneur__note-enchantée {
   border: 1px solid #fcdfdb;
   background-color: #fcdfdb;
@@ -275,6 +282,10 @@ footer .contactez-nous:hover {
   width: 65%;
   font-family: "Kalam", cursive;
   font-weight: lighter;
+  /* Titre bloc principal */
+  /* Titre Entrée, Plat, Dessert */
+  /* Description plat - prix */
+  /* Footer */
 }
 .conteneur__note-enchantée .titre_conteneur {
   font-family: "Devonshire", cursive;
@@ -329,30 +340,32 @@ footer .contactez-nous:hover {
 }
 
 /* PAGE: MENU - LE CHIC A LA FRANCAISE */
+/* Bloc Principal */
 .conteneur__chic-francaise {
-  border: 1px solid #fcdfdb;
-  background-color: #fcdfdb;
+  border: 1px solid #fef5ff;
+  background-color: #fef5ff;
   color: #3c1218;
   margin-right: auto;
   margin-left: auto;
   margin-top: 2rem;
   padding: 3.5rem 4rem 1rem 4rem;
   width: 65%;
-  font-family: "Kalam", cursive;
-  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  /* Titre bloc Principal */
+  /* Titre Entrée, Plat, Dessert */
+  /* Description Plat, Prix */
+  /*  Couleur Entrée, Plat, Dessert */
 }
 .conteneur__chic-francaise .titre_conteneur {
-  font-family: "Devonshire", cursive;
+  font-family: "Croissant One", cursive;
   text-align: center;
-}
-.conteneur__chic-francaise .titre_conteneur h1 {
-  margin-top: 1px;
-}
-.conteneur__chic-francaise .titre_conteneur i {
-  font-size: 3rem;
-  background: linear-gradient(to right, #F0505F, #F78F6A);
+  background: #e18822;
+  background: linear-gradient(90deg, #e18822 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
   color: transparent;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 .conteneur__chic-francaise .titre_menu__chic-francaise {
   text-align: center;
@@ -360,6 +373,7 @@ footer .contactez-nous:hover {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  color: #c67412;
 }
 .conteneur__chic-francaise .titre_menu__chic-francaise h3 {
   margin: 0;
@@ -369,6 +383,8 @@ footer .contactez-nous:hover {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 90px;
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 .conteneur__chic-francaise .menu_description div {
   display: flex;
@@ -381,16 +397,14 @@ footer .contactez-nous:hover {
 .conteneur__chic-francaise .menu_description .prix {
   font-weight: bold;
 }
-.conteneur__chic-francaise .titre_footer {
-  text-align: center;
-  font-family: "Devonshire", cursive;
-  font-size: 1.5rem;
+.conteneur__chic-francaise .bloc_entree--couleur {
+  color: #c67412;
 }
-.conteneur__chic-francaise .titre_footer i {
-  font-size: 1.8rem;
-  background: linear-gradient(to right, #F0505F, #F78F6A);
-  -webkit-background-clip: text;
-  color: transparent;
+.conteneur__chic-francaise .bloc_plat--couleur {
+  color: #a56799;
+}
+.conteneur__chic-francaise .bloc_dessert--couleur {
+  color: #6e4ccc;
 }
 
 /*# sourceMappingURL=style.css.map */
