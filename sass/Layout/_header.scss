@@ -1,0 +1,25 @@
+/* Header */
+
+.bandeau_page_principale{
+    width: 100%;
+
+    div {
+        background-color: $couleur_fond;
+        margin: 0;
+        padding: 0;
+
+        h1 {
+            font-family: 'trueno';
+            color: $couleur_texte;
+            font-size: 2.6rem;
+            margin: 0;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: $couleur_texte;
+        }
+    }
+}

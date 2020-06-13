@@ -1,0 +1,18 @@
+/* Setting général */
+html,body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+/* POLICE */
+@font-face {
+    font-family: 'trueno';
+    src: url('./font/trueno.otf') format('truetype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'truenolight';
+    src: url('./font/truenolt.otf') format('truetype');
+    font-weight:normal;
+}

@@ -1,0 +1,485 @@
+/* POLICE */
+@font-face {
+    font-family: 'trueno';
+    src: url('./font/trueno.otf') format('truetype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'truenolight';
+    src: url('./font/truenolt.otf') format('truetype');
+    font-weight:normal;
+}
+
+/* COLOR */
+$couleur_texte:#F1C849;
+$couleur_fond:#549B85;
+
+/* Setting général */
+html,body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+/* Header */
+
+.bandeau_page_principale{
+    width: 100%;
+
+    div {
+        background-color: $couleur_fond;
+        margin: 0;
+        padding: 0;
+
+        h1 {
+            font-family: 'trueno';
+            color: $couleur_texte;
+            font-size: 2.6rem;
+            margin: 0;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: $couleur_texte;
+        }
+    }
+}
+
+/* Section centrale */
+
+    /* PARAMETRE MENU */
+.bloc_central {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.3rem;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 0;
+
+        > div {
+            box-shadow: 0px 0px 5px 2px #ededed;
+            margin: 40px 0 20px 0;
+            padding:0;
+            width: 36%;
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        p{
+            margin-bottom: 10px;
+        }
+
+    /* MENU NOTE ENCHANTEE */
+    .menu-note-enchantee {
+        background-color: #fcdfdb;
+        text-align: center;
+        padding: 200px 0 200px 0;
+        margin-right: 20px;
+        font-family: 'Devonshire', cursive;
+        
+        h3 {
+            font-family: 'Kalam', cursive;
+        }
+        
+        i {
+            font-size: 2rem;
+            background: linear-gradient(to right,#F0505F,#F78F6A); 
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        p {
+            margin-top: 2px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3c1218;
+        }
+        
+    }
+
+    .element-menu {
+        transform: scale(1);
+        opacity: 1;
+        transition: all 300ms ease-in-out;
+        
+        &:hover {
+        transform: scale(1.10);
+        opacity: 0.75;
+        }
+    }
+
+    /* MENU CHIC FRANCAISE */
+    .menu-chic-francaise {
+        background-color: #fef5ff;
+        text-align: center;
+        padding: 200px 0 200px 0;
+        margin-left: 20px;
+        font-family: 'Croissant One', cursive;
+        
+        p {
+        background: linear-gradient(to right, #c77412, #925dfc);
+        -webkit-background-clip: text;
+        color: transparent;
+        }
+
+        h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+            color: #c77412;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+    /* MENU DELICE PAPILLES */
+    .menu-delice-papilles {
+        background-color: #F9F9F9;
+        text-align: center;
+        padding: 200px 0 200px 0;
+        margin-right: 20px;
+        font-family: 'Dancing Script', cursive;
+
+        p{
+            background: linear-gradient(to right, #2055e6, #5aaffa);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        h3 {
+            font-family: 'Kalam', cursive;
+            color: #1b88fb;
+        }
+        
+    }
+    /* MENU PALETTE GOUT */
+    .menu-palette-goût {
+        background-color: #FDFFFD;
+        text-align: center;
+        padding: 200px 0 200px 0;
+        margin-left: 20px;
+        font-family: 'Kaushan Script', cursive;
+
+        p{
+            background: linear-gradient(to right, #42973c, #c6ff8d);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        h3 {
+            font-family: 'Kalam', cursive;
+            color: #72bf56;
+        }
+    }
+
+}
+
+    /* BOUTON PROCHAINEMENT */
+.bouton-prochainement {
+    display: block;
+    overflow-wrap: break-word;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+    padding: 12px 8px 12px 8px;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: $couleur_fond;
+    color: $couleur_texte;
+    font-family: 'truenolight';
+ 
+    .point_1{
+        display: inline-block;
+        animation: point_1 550ms ease-in-out;
+        animation-delay: 100ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    .point_2{
+        display: inline-block;
+        animation: point_2 550ms ease-in-out;
+        animation-delay: 200ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    .point_3{
+        display: inline-block;
+        animation: point_3 550ms ease-in-out;
+        animation-delay: 400ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+}
+
+@keyframes point_1 {
+    0%{
+        transform: translateY(-3px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes point_2 {
+    0%{
+        transform: translateY(-3px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes point_3 {
+    0%{
+        transform: translateY(-3px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background-color: $couleur_fond;
+    color: $couleur_texte;
+    font-family: 'truenolight'; 
+
+        a {
+            color: $couleur_texte;
+            text-decoration: none;
+        }
+
+        .mentions-légales {
+            margin: 0 0 0 20px;
+            
+            &:hover {
+                animation: wiggle 1s;  
+            }
+        }
+
+        @keyframes wiggle { 
+            10%, 90% { 
+            transform: translateX(-1px); 
+            } 
+        
+            20%, 80% { 
+            transform: translateX(2px); 
+            } 
+        
+            30%, 50%, 70% { 
+            transform: translateX(-4px); 
+            } 
+        
+            40%, 60% { 
+            transform: translateX(4px); 
+            } 
+        }
+
+        .contactez-nous {
+            margin: 0 20px 0 0;
+
+            &:hover {
+                animation: wiggle 0.82s; 
+                transform: translate(0, 0);
+            }
+        }
+}
+
+/* PAGE: MENTION LEGALE */
+.mentions {
+    text-align: center;
+    font-family: 'trueno';  
+    color: $couleur_fond;
+}
+
+/* PAGE: MENU - LA NOTE ENCHANTÉE */
+
+
+    /* Bloc principal */
+.conteneur__note-enchantée {
+    border: 1px solid #fcdfdb;
+    background-color: #fcdfdb;
+    color: #3c1218;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    padding: 3.5rem 4rem 1rem 4rem;
+    width: 65%;
+    font-family: 'Kalam', cursive;
+    font-weight: lighter;
+
+    /* Titre bloc principal */
+    .titre_conteneur {
+        font-family: 'Devonshire', cursive;
+        text-align: center;
+
+        h1 {
+            margin-top: 1px;
+        }
+
+        i {
+            font-size: 3rem;
+            background: linear-gradient(to right,#F0505F,#F78F6A); 
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
+
+    /* Titre Entrée, Plat, Dessert */
+    .titre_menu__note-enchantée {
+
+        text-align: center;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+    }
+
+    /* Description plat - prix */
+    .menu_description {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 90px;
+
+        div {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            
+        }
+        p {
+            margin-bottom: 1px;
+
+        }
+        .prix {
+            font-weight: bold;
+        }
+    }
+
+    /* Footer */
+    .titre_footer {
+        text-align: center;
+        font-family: 'Devonshire', cursive;
+        font-size: 1.5rem;
+
+        i{
+            font-size: 1.8rem;
+            background: linear-gradient(to right,#F0505F,#F78F6A); 
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
+}
+
+/* PAGE: MENU - LE CHIC A LA FRANCAISE */
+
+    /* Bloc Principal */
+.conteneur__chic-francaise {
+    border: 1px solid #fef5ff;
+    background-color: #fef5ff;
+    color: #3c1218;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    padding: 3.5rem 4rem 1rem 4rem;
+    width: 65%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+
+    /* Titre bloc Principal */
+    .titre_conteneur {
+        font-family: 'Croissant One', cursive;
+        text-align: center;
+        background: rgb(225,136,34);
+        background: linear-gradient(90deg, rgba(225,136,34,1) 25%, rgba(179,128,214,1) 55%, rgba(146,95,254,1) 85%);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    /* Titre Entrée, Plat, Dessert */
+    .titre_menu__chic-francaise {
+        text-align: center;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        color: #c67412;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    /* Description Plat, Prix */
+    .menu_description {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 90px;
+        padding-right: 3rem;
+        padding-left: 3rem;
+
+        div {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;  
+        }
+        p {
+            margin-bottom: 1px;
+            
+        } 
+        .prix {
+            font-weight: bold;
+        }
+    }
+
+    /*  Couleur Entrée, Plat, Dessert */
+    .bloc_entree--couleur{
+        color: #c67412;
+    }
+
+    .bloc_plat--couleur{
+        color: #a56799;
+    }
+
+    .bloc_dessert--couleur{
+        color: #6e4ccc;
+    }
+
+    
+}
+
+
+
+

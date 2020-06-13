@@ -1,0 +1,200 @@
+/* Section centrale */
+
+    /* PARAMETRE MENU */
+    .bloc_central {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 1.3rem;
+        width: 100%;
+        margin: 0 0 30px 0;
+        padding: 0;
+    
+            > div {
+                box-shadow: 0px 0px 5px 2px #ededed;
+                margin: 40px 0 20px 0;
+                padding:0;
+                width: 36%;
+            }
+    
+            h3 {
+                font-size: 2rem;
+                margin-top: 0;
+            }
+    
+            p{
+                margin-bottom: 10px;
+            }
+    
+        /* MENU NOTE ENCHANTEE */
+        .menu-note-enchantee {
+            background-color: $background-enchantee;
+            text-align: center;
+            padding: 200px 0 200px 0;
+            margin-right: 20px;
+            font-family: $police-titre-enchantee;
+            
+            h3 {
+                font-family: $police-texte-enchantee;
+            }
+            
+            i {
+                font-size: 2rem;
+                @include degrade-enchantee;
+            }
+    
+            p {
+                margin-top: 2px;
+            }
+    
+            a {
+                text-decoration: none;
+                color: $texte-enchantee;
+            }
+            
+        }
+    
+        .element-menu {
+            transform: scale(1);
+            opacity: 1;
+            transition: all 300ms ease-in-out;
+            
+            &:hover {
+            transform: scale(1.10);
+            opacity: 0.75;
+            }
+        }
+    
+        /* MENU CHIC FRANCAISE */
+        .menu-chic-francaise {
+            background-color: $background-francaise;
+            text-align: center;
+            padding: 200px 0 200px 0;
+            margin-left: 20px;
+            font-family: $police-titre-francaise;
+            
+            p {
+            @include degrade-francaise;
+            }
+    
+            h3 {
+                font-family: $police-texte-francaise;
+                font-weight: normal;
+                color: $texte-francaise--orange;
+            }
+    
+            a {
+                text-decoration: none;
+            }
+        }
+        /* MENU DELICE PAPILLES */
+        .menu-delice-papilles {
+            background-color: background-papilles;
+            text-align: center;
+            padding: 200px 0 200px 0;
+            margin-right: 20px;
+            font-family: $police-titre-papilles;
+    
+            p{
+                @include degrade-papilles
+            }
+    
+            h3 {
+                font-family: $police-texte-papilles;
+            }
+
+            a {
+                text-decoration: none;
+                color: $texte-papilles;
+            }
+        }
+
+        /* MENU PALETTE GOUT */
+        .menu-palette-goût {
+            background-color: $background-gout;
+            text-align: center;
+            padding: 200px 0 200px 0;
+            margin-left: 20px;
+            font-family: $police-titre-gout;
+    
+            p{
+                @include degrade-gout;
+            }
+    
+            h3 {
+                font-family: $police-texte-gout;
+                color: $texte-gout;
+            }
+        }
+    
+    }
+    
+        /* BOUTON PROCHAINEMENT */
+    .bouton-prochainement {
+        display: block;
+        overflow-wrap: break-word;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 35px;
+        padding: 12px 8px 12px 8px;
+        width: 20%;
+        border-radius: 10px;
+        text-align: center;
+        background-color: $couleur_fond;
+        color: $couleur_texte;
+        font-family: 'truenolight';
+     
+        .point_1{
+            display: inline-block;
+            animation: point_1 550ms ease-in-out;
+            animation-delay: 100ms;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    
+        .point_2{
+            display: inline-block;
+            animation: point_2 550ms ease-in-out;
+            animation-delay: 200ms;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    
+        .point_3{
+            display: inline-block;
+            animation: point_3 550ms ease-in-out;
+            animation-delay: 400ms;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    }
+    
+    @keyframes point_1 {
+        0%{
+            transform: translateY(-3px);
+        }
+        
+        100% {
+            transform: translateY(0px);
+        }
+    }
+    
+    @keyframes point_2 {
+        0%{
+            transform: translateY(-3px);
+        }
+        
+        100% {
+            transform: translateY(0px);
+        }
+    }
+    
+    @keyframes point_3 {
+        0%{
+            transform: translateY(-3px);
+        }
+        
+        100% {
+            transform: translateY(0px);
+        }
+    }

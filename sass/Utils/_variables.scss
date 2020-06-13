@@ -1,0 +1,69 @@
+/* COULEUR PRINCIPALE */
+$couleur_texte:#F1C849;
+$couleur_fond:#549B85;
+
+// Thème - Note enchantée
+$background-enchantee:#fcdfdb;
+$texte-enchantee:#3c1218;
+
+    // Dégradé
+    @mixin degrade-enchantee {
+        background: linear-gradient(to right,#F0505F,#F78F6A); 
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    // Police
+    $police-titre-enchantee:'Devonshire', cursive;
+    $police-texte-enchantee:'Kalam', cursive;
+
+
+// Thème - Chic à la française
+$background-francaise:#fef5ff;
+$texte-francaise--orange:#c67412;
+$texte-francaise--rose:#a56799;
+$texte-francaise--violet:#6e4ccc;
+
+    // Dégradé 
+    @mixin degrade-francaise {
+        background: #c67412;
+        background: linear-gradient(90deg, #c67412 25%, rgba(179,128,214,1) 55%, rgba(146,95,254,1) 85%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    // Police
+    $police-titre-francaise:'Croissant One', cursive;
+    $police-texte-francaise:'Times New Roman', Times, serif;
+
+
+// Thème - Délice papilles
+$background-papilles:#F9F9F9;
+$texte-papilles:#1b88fb;
+
+    // Dégradé
+    @mixin degrade-papilles {
+        background: linear-gradient(to right, #2055e6, #5aaffa);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    // Police 
+    $police-titre-papilles:'Dancing Script', cursive;
+    $police-texte-papilles:'Kalam', cursive;
+
+
+// Thème - Palette du goût
+$background-gout:#FDFFFD;
+$texte-gout:#72bf56;
+
+    // Dégradé
+    @mixin degrade-gout {
+        background: linear-gradient(to right, #42973c, #c6ff8d);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    // Police
+    $police-titre-gout:'Kaushan Script', cursive;
+    $police-texte-gout:'Kalam', cursive;

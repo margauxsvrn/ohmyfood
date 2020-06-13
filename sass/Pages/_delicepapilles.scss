@@ -1,0 +1,83 @@
+/* PAGE: MENU - LE DELICE DES PAPILLES */
+
+
+    /* Bloc principal */
+    .conteneur__note-enchantée {
+        border: 1px solid $background-enchantee;
+        background-color: $background-enchantee;
+        color: $texte-enchantee;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+        padding: 3.5rem 4rem 1rem 4rem;
+        width: 65%;
+        font-family: 'Kalam', cursive;
+        font-weight: lighter;
+    
+        /* Titre bloc principal */
+        .titre_conteneur {
+            font-family: 'Devonshire', cursive;
+            text-align: center;
+    
+            h1 {
+                margin-top: 1px;
+            }
+    
+            i {
+                font-size: 3rem;
+                @include degrade-enchantee;
+            }
+        }
+    
+        /* Titre Entrée, Plat, Dessert */
+        .titre_menu__note-enchantée {
+            text-align: center;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            
+            h3 {
+                margin: 0;
+                padding: 0;
+                display: block;
+                
+                @include surligne ($texte-enchantee);
+
+            }
+    
+        }
+    
+        /* Description plat - prix */
+        .menu_description {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 90px;
+    
+            div {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                
+            }
+            p {
+                margin-bottom: 1px;
+    
+            }
+            .prix {
+                font-weight: bold;
+            }
+        }
+    
+        /* Footer */
+        .titre_footer {
+            text-align: center;
+            font-family: 'Devonshire', cursive;
+            font-size: 1.5rem;
+    
+            i{
+                font-size: 1.8rem;
+                @include degrade-enchantee;
+            }
+        }
+    }

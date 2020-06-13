@@ -1,0 +1,55 @@
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background-color: $couleur_fond;
+    color: $couleur_texte;
+    font-family: 'truenolight'; 
+
+        a {
+            color: $couleur_texte;
+            text-decoration: none;
+        }
+
+        .mentions-légales {
+            margin: 0 0 0 20px;
+            
+            &:hover {
+                animation: wiggle 1s;  
+            }
+        }
+
+        @keyframes wiggle { 
+            10%, 90% { 
+            transform: translateX(-1px); 
+            } 
+        
+            20%, 80% { 
+            transform: translateX(2px); 
+            } 
+        
+            30%, 50%, 70% { 
+            transform: translateX(-4px); 
+            } 
+        
+            40%, 60% { 
+            transform: translateX(4px); 
+            } 
+        }
+
+        .contactez-nous {
+            margin: 0 20px 0 0;
+
+            &:hover {
+                animation: wiggle 0.82s; 
+                transform: translate(0, 0);
+            }
+        }
+}
