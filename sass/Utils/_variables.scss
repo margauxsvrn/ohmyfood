@@ -9,8 +9,9 @@ $texte-enchantee:#3c1218;
     // Dégradé
     @mixin degrade-enchantee {
         background: linear-gradient(to right,#F0505F,#F78F6A);
-        -webkit-background: linear-gradient(to right,#F0505F,#F78F6A);
+        background: -webkit-linear-gradient(to right,#F0505F,#F78F6A); // Chrome, Safari
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent;
     }
 
@@ -29,8 +30,9 @@ $texte-francaise--violet:#6e4ccc;
     @mixin degrade-francaise {
         background: #c67412;
         background: linear-gradient(90deg, #c67412 25%, rgba(179,128,214,1) 55%, rgba(146,95,254,1) 85%);
-        -webkit-background:linear-gradient(90deg, #c67412 25%, rgba(179,128,214,1) 55%, rgba(146,95,254,1) 85%);
+        background: -webkit-linear-gradient(90deg, #c67412 25%, rgba(179,128,214,1) 55%, rgba(146,95,254,1) 85%); // Chrome, Safari
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent;
     }
 
@@ -46,8 +48,9 @@ $texte-papilles:#1b88fb;
     // Dégradé
     @mixin degrade-papilles {
         background: linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
-        -webkit-background:linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
+        background: -webkit-linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%); // Chrome, Safari
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent;
     }
 
@@ -63,8 +66,9 @@ $texte-gout:#72bf56;
     // Dégradé
     @mixin degrade-gout {
         background: linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
-        -webkit-background:linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
+        background: -webkit-linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%); // Chrome, Safari
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent;
     }
 
