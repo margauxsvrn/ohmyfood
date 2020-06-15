@@ -35,7 +35,11 @@
             }
 
             .fleche {
-                transform: rotate(1.5turn);
+                -webkit-transform: rotate(1.5turn);
+                -moz-transform: rotate(1.5turn);
+                -ms-transform: rotate(1.5turn);
+                -o-transform: rotate(1.5turn);
+                transform:  rotate(1.5turn);
             }
     
             h3 {

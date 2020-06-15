@@ -2,50 +2,61 @@
 
 
     /* Bloc principal */
-    .conteneur__note-enchantée {
-        border: 1px solid $background-enchantee;
-        background-color: $background-enchantee;
-        color: $texte-enchantee;
+    .conteneur__délice-papilles {
+        border: 1px solid $background-papilles;
+        background-color: $background-papilles;
+        color: black;
         margin-right: auto;
         margin-left: auto;
         margin-top: 2rem;
         padding: 3.5rem 4rem 1rem 4rem;
         width: 65%;
-        font-family: 'Kalam', cursive;
+        font-family: $police-texte-papilles;
         font-weight: lighter;
     
         /* Titre bloc principal */
         .titre_conteneur {
-            font-family: 'Devonshire', cursive;
+            font-family: $police-titre-papilles;
+            @include degrade-papilles;
             text-align: center;
     
             h1 {
                 margin-top: 1px;
-            }
-    
-            i {
-                font-size: 3rem;
-                @include degrade-enchantee;
+                font-size: 2.5rem;
+                font-weight: lighter;
             }
         }
     
         /* Titre Entrée, Plat, Dessert */
-        .titre_menu__note-enchantée {
+        .titre_menu__délice-papilles {
             text-align: center;
             font-size: 1.2rem;
             display: flex;
             justify-content: space-between;
             margin-bottom: 10px;
             
+            img {
+                width: 90%;
+            }
+
+            .fleche {
+                -webkit-transform: rotateY(180deg);
+                -moz-transform: rotateY(180deg);
+                -ms-transform: rotateY(180deg);
+                -o-transform: rotateY(180deg);
+                transform:  rotateY(180deg);
+            }
+    
             h3 {
                 margin: 0;
                 padding: 0;
-                display: block;
-                
-                @include surligne ($texte-enchantee);
-
+                width: 40%;
+                font-weight: lighter;
             }
-    
+
+            .bloc--entree, .bloc--plat, .bloc--dessert{
+                @include surligne ($texte-papilles);
+            }
         }
     
         /* Description plat - prix */
@@ -53,19 +64,16 @@
             display: flex;
             flex-wrap: wrap;
             margin-bottom: 90px;
+            padding-right: 3rem;
+            padding-left: 3rem;
     
             div {
                 display: flex;
                 width: 100%;
                 justify-content: space-between;
-                
             }
             p {
                 margin-bottom: 1px;
-    
-            }
-            .prix {
-                font-weight: bold;
             }
         }
     

@@ -56,11 +56,19 @@
     
         .element-menu {
             transform: scale(1);
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -ms-transform: scale(1);
+            -o-transform: scale(1);
             opacity: 1;
             transition: all 300ms ease-in-out;
             
             &:hover {
             transform: scale(1.10);
+            -webkit-transform: scale(1.10);
+            -moz-transform: scale(1.10);
+            -ms-transform: scale(1.10);
+            -o-transform: scale(1.10);
             opacity: 0.75;
             }
         }
@@ -89,7 +97,7 @@
         }
         /* MENU DELICE PAPILLES */
         .menu-delice-papilles {
-            background-color: background-papilles;
+            background-color: $background-papilles;
             text-align: center;
             padding: 200px 0 200px 0;
             margin-right: 20px;
@@ -124,6 +132,9 @@
             h3 {
                 font-family: $police-texte-gout;
                 color: $texte-gout;
+            }
+            a {
+                text-decoration: none;
             }
         }
     
