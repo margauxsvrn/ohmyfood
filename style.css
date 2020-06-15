@@ -131,7 +131,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #F0505F, #F78F6A);
   background: -webkit-linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 .bloc_central .menu-note-enchantee p {
@@ -170,7 +169,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   background: -webkit-linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 .bloc_central .menu-chic-francaise h3 {
@@ -192,7 +190,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   background: -webkit-linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 .bloc_central .menu-delice-papilles h3 {
@@ -213,7 +210,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   background: -webkit-linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 .bloc_central .menu-palette-goût h3 {
@@ -322,7 +318,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #F0505F, #F78F6A);
   background: -webkit-linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 .conteneur__note-enchantée .titre_menu__note-enchantée {
@@ -380,7 +375,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #F0505F, #F78F6A);
   background: -webkit-linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 
@@ -406,7 +400,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   background: -webkit-linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   font-family: "Croissant One", cursive;
   text-align: center;
@@ -529,7 +522,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   background: -webkit-linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   text-align: center;
 }
@@ -600,7 +592,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #F0505F, #F78F6A);
   background: -webkit-linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 
@@ -627,7 +618,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   background: -webkit-linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   text-align: center;
 }
@@ -698,7 +688,6 @@ footer .contactez-nous:hover {
   background: linear-gradient(to right, #F0505F, #F78F6A);
   background: -webkit-linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 
