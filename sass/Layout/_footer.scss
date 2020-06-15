@@ -6,7 +6,7 @@ footer {
     position: sticky;
     position: -webkit-sticky; /* Safari */
     bottom: 0;
-    width: 100%;
+    width: auto;
     margin: 0;
     padding: 20px 0 20px 0;
     background-color: $couleur_fond;
@@ -18,8 +18,8 @@ footer {
             text-decoration: none;
         }
 
-        .mentions-légales {
-            margin: 0 0 0 20px;
+        .mentions-legales {
+            margin-left: 20px;
             
             &:hover {
                 animation: wiggle 1s;  

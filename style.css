@@ -49,7 +49,7 @@ footer {
   position: -webkit-sticky;
   /* Safari */
   bottom: 0;
-  width: 100%;
+  width: auto;
   margin: 0;
   padding: 20px 0 20px 0;
   background-color: #549B85;
@@ -60,10 +60,10 @@ footer a {
   color: #F1C849;
   text-decoration: none;
 }
-footer .mentions-légales {
-  margin: 0 0 0 20px;
+footer .mentions-legales {
+  margin-left: 20px;
 }
-footer .mentions-légales:hover {
+footer .mentions-legales:hover {
   animation: wiggle 1s;
 }
 @keyframes wiggle {
@@ -283,9 +283,24 @@ footer .contactez-nous:hover {
 }
 /* PAGE: MENTION LEGALE */
 .mentions {
+  margin: 10px;
   text-align: center;
-  font-family: "trueno";
+  font-family: "truenolight";
   color: #549B85;
+}
+.mentions p {
+  text-align: justify;
+  color: black;
+}
+.mentions ul {
+  color: black;
+  text-align: justify;
+}
+.mentions span {
+  display: block;
+  text-align: justify;
+  color: black;
+  margin: 10px;
 }
 
 /* PAGE: MENU - LA NOTE ENCHANTÉE */

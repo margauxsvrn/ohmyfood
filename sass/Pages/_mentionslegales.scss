@@ -1,6 +1,24 @@
 /* PAGE: MENTION LEGALE */
 .mentions {
+    margin: 10px;
     text-align: center;
-    font-family: 'trueno';  
+    font-family: 'truenolight';  
     color: $couleur_fond;
+
+    p {
+        text-align: justify;
+        color: black;
+    }
+
+    ul {
+        color: black;
+        text-align: justify;
+    }
+
+    span {
+        display: block;
+        text-align: justify;
+        color: black;
+        margin: 10px;
+    }
 }
