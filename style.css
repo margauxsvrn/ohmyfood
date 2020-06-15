@@ -167,8 +167,8 @@ footer .contactez-nous:hover {
 }
 .bloc_central .menu-chic-francaise p {
   background: #c67412;
-  background: linear-gradient(90deg, #c67412 25%, #b380d6 55%, #925ffe 85%);
-  background: -webkit-linear-gradient(90deg, #c67412 25%, #b380d6 55%, #925ffe 85%);
+  background: linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
+  background: -webkit-linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -189,8 +189,8 @@ footer .contactez-nous:hover {
   font-family: "Dancing Script", cursive;
 }
 .bloc_central .menu-delice-papilles p {
-  background: linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
-  background: -webkit-linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
+  background: linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
+  background: -webkit-linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -210,8 +210,8 @@ footer .contactez-nous:hover {
   font-family: "Kaushan Script", cursive;
 }
 .bloc_central .menu-palette-goût p {
-  background: linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
-  background: -webkit-linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
+  background: linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
+  background: -webkit-linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -403,8 +403,8 @@ footer .contactez-nous:hover {
 }
 .conteneur__chic-francaise .titre_conteneur {
   background: #c67412;
-  background: linear-gradient(90deg, #c67412 25%, #b380d6 55%, #925ffe 85%);
-  background: -webkit-linear-gradient(90deg, #c67412 25%, #b380d6 55%, #925ffe 85%);
+  background: linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
+  background: -webkit-linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -526,8 +526,8 @@ footer .contactez-nous:hover {
 }
 .conteneur__délice-papilles .titre_conteneur {
   font-family: "Dancing Script", cursive;
-  background: linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
-  background: -webkit-linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
+  background: linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
+  background: -webkit-linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -624,8 +624,8 @@ footer .contactez-nous:hover {
 }
 .conteneur__palette-gout .titre_conteneur {
   font-family: "Kaushan Script", cursive;
-  background: linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
-  background: -webkit-linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
+  background: linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
+  background: -webkit-linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
