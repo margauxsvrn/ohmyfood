@@ -1,0 +1,115 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width:920px) {
+    html, body {
+        font-size: 16px;
+    }
+
+// Page Index
+    .bloc_central {
+        flex-direction: column;
+        width: auto;
+
+        .menu-note-enchantee, .menu-chic-francaise, .menu-delice-papilles, .menu-palette-goût {
+            width: auto;
+            padding: 20px 0 20px 0;
+            margin: 15px 10px 15px 10px;
+        }
+
+    }
+
+    .bouton-prochainement{
+        width: 60%;
+    }
+
+    
+// Page Note enchantée
+    .conteneur__note-enchantée {
+        width: auto;
+        margin: 10px;
+        padding: 10%;
+        
+    
+        .titre_menu__note-enchantée {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu_description {
+            flex-direction: column;
+            text-align: center;
+
+            div, p {
+                display: block;
+            }
+        }
+    }
+
+// Page Chic à la française
+    .conteneur__chic-francaise {
+        width: auto;
+        margin: 10px;
+        padding: 10%;
+        
+    
+        .titre_menu__chic-francaise {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu_description {
+            flex-direction: column;
+            text-align: center;
+
+            div, p {
+                display: block;
+            }
+        }
+    }
+
+// Page Le délice des papilles
+    .conteneur__délice-papilles {
+        width: auto;
+        margin: 10px;
+        padding: 10%;
+        
+    
+        .titre_menu__délice-papilles {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu_description {
+            flex-direction: column;
+            text-align: center;
+
+            div, p {
+                display: block;
+            }
+        }
+    }
+
+// Page La palette du goût
+    .conteneur__palette-gout {
+        width: auto;
+        margin: 10px;
+        padding: 10%;
+        
+    
+        .titre_menu__palette-gout {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu_description {
+            flex-direction: column;
+            text-align: center;
+
+            div, p {
+                display: block;
+            }
+        }
+    }
+
+
+}

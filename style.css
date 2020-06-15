@@ -333,7 +333,7 @@ footer .contactez-nous:hover {
   margin-bottom: 10px;
 }
 .conteneur__note-enchantée .titre_menu__note-enchantée img {
-  width: 110%;
+  width: 100%;
 }
 .conteneur__note-enchantée .titre_menu__note-enchantée h3 {
   margin: 0;
@@ -700,6 +700,95 @@ footer .contactez-nous:hover {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 920px) {
+  html, body {
+    font-size: 16px;
+  }
+
+  .bloc_central {
+    flex-direction: column;
+    width: auto;
+  }
+  .bloc_central .menu-note-enchantee, .bloc_central .menu-chic-francaise, .bloc_central .menu-delice-papilles, .bloc_central .menu-palette-goût {
+    width: auto;
+    padding: 20px 0 20px 0;
+    margin: 15px 10px 15px 10px;
+  }
+
+  .bouton-prochainement {
+    width: 60%;
+  }
+
+  .conteneur__note-enchantée {
+    width: auto;
+    margin: 10px;
+    padding: 10%;
+  }
+  .conteneur__note-enchantée .titre_menu__note-enchantée {
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteneur__note-enchantée .menu_description {
+    flex-direction: column;
+    text-align: center;
+  }
+  .conteneur__note-enchantée .menu_description div, .conteneur__note-enchantée .menu_description p {
+    display: block;
+  }
+
+  .conteneur__chic-francaise {
+    width: auto;
+    margin: 10px;
+    padding: 10%;
+  }
+  .conteneur__chic-francaise .titre_menu__chic-francaise {
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteneur__chic-francaise .menu_description {
+    flex-direction: column;
+    text-align: center;
+  }
+  .conteneur__chic-francaise .menu_description div, .conteneur__chic-francaise .menu_description p {
+    display: block;
+  }
+
+  .conteneur__délice-papilles {
+    width: auto;
+    margin: 10px;
+    padding: 10%;
+  }
+  .conteneur__délice-papilles .titre_menu__délice-papilles {
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteneur__délice-papilles .menu_description {
+    flex-direction: column;
+    text-align: center;
+  }
+  .conteneur__délice-papilles .menu_description div, .conteneur__délice-papilles .menu_description p {
+    display: block;
+  }
+
+  .conteneur__palette-gout {
+    width: auto;
+    margin: 10px;
+    padding: 10%;
+  }
+  .conteneur__palette-gout .titre_menu__palette-gout {
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteneur__palette-gout .menu_description {
+    flex-direction: column;
+    text-align: center;
+  }
+  .conteneur__palette-gout .menu_description div, .conteneur__palette-gout .menu_description p {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

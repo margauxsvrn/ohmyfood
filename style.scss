@@ -1,6 +1,5 @@
 // Paramètre généraux 
 @import "./sass/Base/parametre-generaux";
-@import "./sass/Base/mediaqueries";
 
 // Variables
 @import "./sass/Utils/variables";
@@ -21,6 +20,9 @@
 @import "./sass/Pages/chicfrancaise";
 @import "./sass/Pages/delicepapilles";
 @import "./sass/Pages/palettegout";
+
+// Media Queries
+@import "./sass/Base/mediaqueries";
 
 
 
