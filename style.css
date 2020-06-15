@@ -129,6 +129,7 @@ footer .contactez-nous:hover {
 .bloc_central .menu-note-enchantee i {
   font-size: 2rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
+  -webkit-background: linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -166,6 +167,7 @@ footer .contactez-nous:hover {
 .bloc_central .menu-chic-francaise p {
   background: #c67412;
   background: linear-gradient(90deg, #c67412 25%, #b380d6 55%, #925ffe 85%);
+  -webkit-background: linear-gradient(90deg, #c67412 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -186,6 +188,7 @@ footer .contactez-nous:hover {
 }
 .bloc_central .menu-delice-papilles p {
   background: linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
+  -webkit-background: linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -205,6 +208,7 @@ footer .contactez-nous:hover {
 }
 .bloc_central .menu-palette-goût p {
   background: linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
+  -webkit-background: linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -312,6 +316,7 @@ footer .contactez-nous:hover {
 .conteneur__note-enchantée .titre_conteneur i {
   font-size: 3rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
+  -webkit-background: linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -322,10 +327,13 @@ footer .contactez-nous:hover {
   justify-content: space-between;
   margin-bottom: 10px;
 }
+.conteneur__note-enchantée .titre_menu__note-enchantée img {
+  width: 110%;
+}
 .conteneur__note-enchantée .titre_menu__note-enchantée h3 {
   margin: 0;
   padding: 0;
-  display: block;
+  width: 35%;
 }
 .conteneur__note-enchantée .titre_menu__note-enchantée h3::after {
   content: "";
@@ -365,6 +373,7 @@ footer .contactez-nous:hover {
 .conteneur__note-enchantée .titre_footer i {
   font-size: 1.8rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
+  -webkit-background: linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -389,6 +398,7 @@ footer .contactez-nous:hover {
 .conteneur__chic-francaise .titre_conteneur {
   background: #c67412;
   background: linear-gradient(90deg, #c67412 25%, #b380d6 55%, #925ffe 85%);
+  -webkit-background: linear-gradient(90deg, #c67412 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
   color: transparent;
   font-family: "Croissant One", cursive;
@@ -510,6 +520,7 @@ footer .contactez-nous:hover {
 .conteneur__délice-papilles .titre_conteneur {
   font-family: "Dancing Script", cursive;
   background: linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
+  -webkit-background: linear-gradient(90deg, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
@@ -579,6 +590,7 @@ footer .contactez-nous:hover {
 .conteneur__délice-papilles .titre_footer i {
   font-size: 1.8rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
+  -webkit-background: linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -604,6 +616,7 @@ footer .contactez-nous:hover {
 .conteneur__palette-gout .titre_conteneur {
   font-family: "Kaushan Script", cursive;
   background: linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
+  -webkit-background: linear-gradient(90deg, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
@@ -673,6 +686,7 @@ footer .contactez-nous:hover {
 .conteneur__palette-gout .titre_footer i {
   font-size: 1.8rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
+  -webkit-background: linear-gradient(to right, #F0505F, #F78F6A);
   -webkit-background-clip: text;
   color: transparent;
 }
