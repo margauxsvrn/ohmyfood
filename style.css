@@ -103,18 +103,20 @@ footer .contactez-nous:hover {
   /* MENU DELICE PAPILLES */
   /* MENU PALETTE GOUT */
 }
-.bloc_central > div {
+.bloc_central article {
   box-shadow: 0px 0px 5px 2px #ededed;
   margin: 40px 0 20px 0;
   padding: 0;
   width: 36%;
 }
-.bloc_central h3 {
+.bloc_central h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.bloc_central h2 span {
+  display: block;
   font-size: 2rem;
   margin-top: 0;
-}
-.bloc_central p {
-  margin-bottom: 10px;
 }
 .bloc_central .menu-note-enchantee {
   background-color: #fcdfdb;
@@ -123,9 +125,6 @@ footer .contactez-nous:hover {
   margin-right: 20px;
   font-family: "Devonshire", cursive;
 }
-.bloc_central .menu-note-enchantee h3 {
-  font-family: "Kalam", cursive;
-}
 .bloc_central .menu-note-enchantee i {
   font-size: 2rem;
   background: linear-gradient(to right, #F0505F, #F78F6A);
@@ -133,8 +132,11 @@ footer .contactez-nous:hover {
   -webkit-background-clip: text;
   color: transparent;
 }
-.bloc_central .menu-note-enchantee p {
+.bloc_central .menu-note-enchantee h2 {
   margin-top: 2px;
+}
+.bloc_central .menu-note-enchantee h2 span {
+  font-family: "Kalam", cursive;
 }
 .bloc_central .menu-note-enchantee a {
   text-decoration: none;
@@ -164,14 +166,14 @@ footer .contactez-nous:hover {
   margin-left: 20px;
   font-family: "Croissant One", cursive;
 }
-.bloc_central .menu-chic-francaise p {
+.bloc_central .menu-chic-francaise h2 {
   background: #c67412;
   background: linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   background: -webkit-linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
   color: transparent;
 }
-.bloc_central .menu-chic-francaise h3 {
+.bloc_central .menu-chic-francaise h2 span {
   font-family: "Times New Roman", Times, serif;
   font-weight: normal;
   color: #c67412;
@@ -186,13 +188,13 @@ footer .contactez-nous:hover {
   margin-right: 20px;
   font-family: "Dancing Script", cursive;
 }
-.bloc_central .menu-delice-papilles p {
+.bloc_central .menu-delice-papilles h2 {
   background: linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   background: -webkit-linear-gradient(to right, #072ddd 25%, #1571f3 55%, #249ef9 85%);
   -webkit-background-clip: text;
   color: transparent;
 }
-.bloc_central .menu-delice-papilles h3 {
+.bloc_central .menu-delice-papilles h2 span {
   font-family: "Kalam", cursive;
 }
 .bloc_central .menu-delice-papilles a {
@@ -206,13 +208,13 @@ footer .contactez-nous:hover {
   margin-left: 20px;
   font-family: "Kaushan Script", cursive;
 }
-.bloc_central .menu-palette-goût p {
+.bloc_central .menu-palette-goût h2 {
   background: linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   background: -webkit-linear-gradient(to right, #479a44 25%, #83cd60 55%, #BEFF7F 85%);
   -webkit-background-clip: text;
   color: transparent;
 }
-.bloc_central .menu-palette-goût h3 {
+.bloc_central .menu-palette-goût h2 span {
   font-family: "Kalam", cursive;
   color: #72bf56;
 }
@@ -411,15 +413,17 @@ footer .contactez-nous:hover {
   /*  Couleur Entrée, Plat, Dessert */
 }
 .conteneur__chic-francaise .titre_conteneur {
+  font-family: "Croissant One", cursive;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.conteneur__chic-francaise .titre_conteneur h1 {
   background: #c67412;
   background: linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   background: -webkit-linear-gradient(to right, #c67412 25%, #b380d6 55%, #925ffe 85%);
   -webkit-background-clip: text;
   color: transparent;
-  font-family: "Croissant One", cursive;
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
 }
 .conteneur__chic-francaise .titre_menu__chic-francaise {
   text-align: center;

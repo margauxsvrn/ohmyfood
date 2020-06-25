@@ -14,11 +14,14 @@
     
         /* Titre bloc Principal */
         .titre_conteneur {
-            @include degrade-francaise;
             font-family: 'Croissant One', cursive;
             text-align: center;
             margin-top: 2rem;
             margin-bottom: 5rem;
+
+            h1 {
+                @include degrade-francaise;
+            }
         }
     
         /* Titre Entrée, Plat, Dessert */
